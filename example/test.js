@@ -189,10 +189,11 @@ let smart_api = new SmartAPI({
 
 // ########################### Socket V2 Sample Code Ends Here ###########################
 let web_socket = new WebSocketV2({
-	jwttoken: 'JWT_TOKEN',
-	apikey: 'API_KEY',
-	clientcode: 'CLIENT_CODE',
-	feedtype: 'FEED_TYPE',
+	jwttoken:
+		'eyJhbGciOiJIUzUxMiJ9.eyJ1c2VybmFtZSI6IkExMzgxMzU4Iiwicm9sZXMiOjAsInVzZXJ0eXBlIjoiVVNFUiIsImlhdCI6MTY3Njg4MzQ0NSwiZXhwIjoxNzYzMjgzNDQ1fQ.GHEusnxOIFFHU2vwg-9s783kZftn6m_Tib0CqjvlckV8nuAGxkyXhK4NBm-f0xU4l-6DR81NibRRFpIXdW7olg',
+	apikey: 'm7TeW9kY',
+	clientcode: 'A1381358',
+	feedtype: '0827589108',
 });
 
 web_socket.connect().then((res) => {
